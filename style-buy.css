@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #faebd7;
+}
+ul{
+    list-style:none;
+}
+
+.horizontal-menu{
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.horizontal-menu ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.horizontal-menu ul li{
+    margin: 0 20px;
+}
+.horizontal-menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+.horizontal-menu ul li a:hover {
+    color: #fa7575;
+}
+.horizontal-menu ul li a.active {
+    color: #fa7575;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    background-color:#faebd7;  
+}
+
+a:hover {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.container li {
+    margin: 0 15px 15px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.container li:hover {
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.container li p {
+    padding: 5px 15px 0;
+}
+
+.container li p:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+
+.container li img {
+    width: 277px;
+    height: 277px;
+}
+
+.container li .price {
+    color: #f60;
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+}
+
+.container li .numb {
+    color: #666;
+    font-size: 12px;
+    display: inline-block;
+    float: right;
+}
+
+.container li .title {
+    font-size: 12px;
+    color: #666;
+}
+
+.container li .addToCart {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    float: left;
+    width: 116px;
+    height: 30px;
+    background: #27b5e5;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.container li .buy {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    float: left;
+    width: 116px;
+    height: 30px;
+    border: 1px solid #27b5e5;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    box-sizing: border-box;
+    float: right;
+    cursor: pointer;
+}

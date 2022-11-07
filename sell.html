@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sell</title>
+    <link rel="stylesheet" href="style-sell.css" type="text/css">
+  </head>
+  <body>
+    <div class="horizontal-menu">
+      <ul>
+        <li>
+          <a href=front.html>Home</a>
+        </li>
+        <li>
+          <a href="#" class="active">Sell</a> 
+        </li>
+        <li>
+          <a href=buy.html>Buy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="topic">
+      <h1>Selling items</h1>
+      <br/>
+      <p>This is a site where you can turn unused items into something valuable, where you can be a buyer or a seller. </p>
+    </div>
+    <div class="container">
+      <form action="front.html">
+        <label for="product">Product Name</label>
+        <input type="text" id="product" name="product">
+
+        <label for="description">Product Description</label>
+        <input type="text" id="description" name="description">
+
+        <label for="sort">Sort of Product</label>
+        <select id="sort" name="sort">
+          <option value="blank"></option>
+          <option value="clothes">Clothes</option>
+          <option value="food">Food</option>
+          <option value="use">Daily Supplies</option>
+        </select>
+        
+        <label for="price">Price</label>
+        <input type="text" id="price" name="price">
+        
+        <label for="photo">Photo of Product</label>
+        <textarea id="subject" name="photo" style="height:200px"></textarea>
+        
+        <a href="buy.html"><input type="submit" value="Submit"></a>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #faebd7;
+}
+
+.horizontal-menu{
+    top: 10px;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.horizontal-menu ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    list-style:none;
+}
+.horizontal-menu ul li{
+    margin: 0 20px;
+}
+.horizontal-menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+.horizontal-menu ul li a:hover {
+    color: #fa7575;
+}
+.horizontal-menu ul li a.active {
+    color: #fa7575;
+}
+
+.topic{
+    text-align: center;
+}
+.topic h1{
+    color: black;
+    font: bold;
+    font: 40px Arail;
+}
+.topic p{
+    color: dimgrey;
+    font-size: 20px;
+}
+.container{
+    border-radius: 5px;
+    background-color: #faebd7;
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 10px solid #d7ddfa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.container select option{
+    color: dimgrey;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #61b065;
+}

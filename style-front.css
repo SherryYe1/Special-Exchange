@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #faebd7;
+}
+body{
+    font-size: 18px;
+}
+
+.account{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.account ul li a{
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+.account a:hover {
+    color: #81aff6;
+}
+.account a.active {
+    color: #fabc7e;
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.logo h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.vertical-menu {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.vertical-menu ul{
+    justify-content: center;
+ }
+.vertical-menu ul li a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(194, 218, 255);
+    color: white;
+}
+
+.vertical-menu a.active {
+    background-color: #81aff6;
+    color: white;
+}
+
