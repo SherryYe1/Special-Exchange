@@ -1,4 +1,4 @@
-# Special Change
+# Special Exchange
 > This is a website where you can make free trades.
 
 ## Table of Contents
